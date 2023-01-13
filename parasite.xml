@@ -5,6 +5,10 @@
           fetch="https://github.com/TheParasiteProject/"
           revision="thirteen-plus" />
 
+  <remote name="parasite-gitlab"
+          fetch="https://github.com/someone5678/"
+          revision="thirteen-plus" />
+
   <remote name="github-others" fetch="https://github.com/" />
   <remote name="gitlab-others" fetch="https://gitlab.com/" />
 
@@ -12,6 +16,7 @@
   <remove-project name="frameworks_base" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="vendor_aosp" />
+  <remove-project name="vendor_gapps" />
   <remove-project name="vendor_pixel-framework" />
   <remove-project name="packages_modules_Bluetooth" />
   <remove-project name="packages_overlays_ThemeIcons" />
@@ -28,6 +33,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="parasite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" />
+  <project path="vendor/gms" name="vendor_gms" remote="parasite-gitlab" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
