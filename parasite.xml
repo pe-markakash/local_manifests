@@ -37,5 +37,6 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
 
 </manifest>
