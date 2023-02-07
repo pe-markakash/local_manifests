@@ -21,6 +21,7 @@
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
   <remove-project name="frameworks_opt_telephony" />
+  <remove-project name="hardware_libhardware" />
   <remove-project name="hardware_google_pixel" />
   <remove-project name="manifest" />
   <remove-project name="packages_apps_Settings" />
@@ -56,6 +57,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
   <project path="frameworks/base" name="frameworks_base" remote="parasite" />
   <project path="frameworks/native" name="frameworks_native" remote="parasite" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
   <project path="manifest" name="manifest" remote="parasite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
