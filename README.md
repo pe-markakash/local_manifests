@@ -9,7 +9,7 @@
 
 ### Sync ###
 
-* First, please following `Sync` instruction in [PixelExperience's manifest](https://github.com/PixelExperience/manifest)<br>
+* First, please following `Sync` instruction in [fork of PixelExperience's manifest](https://github.com/TheParasiteProject/manifest)<br>
   After that, following below instruction.
 
 ```bash
