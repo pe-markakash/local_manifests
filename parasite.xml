@@ -62,6 +62,7 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="parasite" />
+  <project path="platform_testing" name="platform_testing" remote="parasite" />
   <project path="system/core" name="system_core" remote="parasite" />
   <project path="system/logging" name="system_logging" remote="parasite" />
   <project path="system/sepolicy" name="system_sepolicy" remote="parasite" />
