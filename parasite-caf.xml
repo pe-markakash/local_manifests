@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="vendor_qcom_opensource_fm-commonsys" />
+
+  <!-- Vendor repos - QCOM -->
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="parasite" />
+</manifest>
