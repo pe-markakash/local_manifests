@@ -83,4 +83,5 @@
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
 
+  <project path="kernel/drivers" name="kernel_drivers" remote="parasite" />
 </manifest>
