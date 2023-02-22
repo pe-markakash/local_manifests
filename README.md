@@ -45,9 +45,11 @@ $ mka bacon -jX
 - [Flamingo-OS](https://github.com/Flamingo-OS)
 - [hentaiOS](https://github.com/hentaiOS)
 - [LineageOS](https://github.com/LineageOS)
+- [minaripenguin](https://github.com/minaripenguin/android_frameworks_base)
 - [PixelExperience](https://github.com/PixelExperience)
 - [ProtonAOSP](https://github.com/protonAOSP)
 - [Project Kaleidoscope](https://github.com/Project-Kaleidoscope)
+- [riceDroid Open Source Software](https://github.com/ricedroidOSS)
 - [StatiX](https://github.com/StatiXOS)
 - [Yet another AOSP project](https://github.com/yaap)
 
