@@ -32,6 +32,7 @@
   <remove-project name="packages_modules_Connectivity" />
   <remove-project name="packages_overlays_ThemeIcons" />
   <remove-project name="packages_services_Telecomm" />
+  <remove-project name="platform_testing" />
   <remove-project name="system_core" />
   <remove-project name="system_logging" />
   <remove-project name="system_media" />
