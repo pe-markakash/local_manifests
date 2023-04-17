@@ -42,6 +42,7 @@
   <remove-project name="vendor_aosp" />
   <remove-project name="vendor_gms" />
   <remove-project name="vendor_pixel-framework" />
+  <remove-project name="vendor_custom-preference" />
 
   <project path="bionic" name="bionic" remote="parasite">
   <project path="build/make" name="build" remote="parasite">
@@ -82,6 +83,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" />
   <project path="vendor/gms" name="vendor_gms" remote="parasite-gitlab" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
+  <project path="vendor_custom-preference" name="vendor_custom-preference" remote="parasite" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
 
   <project path="kernel/drivers" name="kernel_drivers" remote="parasite" sync-s="true" />
