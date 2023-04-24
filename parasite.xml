@@ -12,6 +12,7 @@
   <remote name="github-others" fetch="https://github.com/" />
   <remote name="gitlab-others" fetch="https://gitlab.com/" />
 
+  <remove-project name="art" />
   <remove-project name="bionic" />
   <remove-project name="build_soong" />
   <remove-project name="build" />
@@ -44,6 +45,7 @@
   <remove-project name="vendor_pixel-framework" />
   <remove-project name="vendor_custom-preference" />
 
+  <project path="art" name="art" remote="parasite">
   <project path="bionic" name="bionic" remote="parasite">
   <project path="build/make" name="build" remote="parasite">
     <copyfile src="core/root.mk" dest="Makefile" />
