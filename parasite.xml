@@ -88,6 +88,8 @@
   <project path="vendor_custom-preference" name="vendor_custom-preference" remote="parasite" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
 
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="parasite" />
+
   <project path="kernel/drivers" name="kernel_drivers" remote="parasite" sync-s="true" />
   <project path="kernel/drivers/misc/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
 </manifest>
