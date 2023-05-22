@@ -90,6 +90,6 @@
 
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="parasite" />
 
-  <project path="kernel/drivers" name="kernel_drivers" remote="parasite" sync-s="true" />
-  <project path="kernel/drivers/misc/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
+  <project path="kernel/modules" name="kernel_modules" remote="parasite" sync-s="true" />
+  <project path="kernel/modules/misc/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
 </manifest>
