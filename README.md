@@ -1,16 +1,16 @@
 # TheParasiteProject
 
-* Some minimal changes applied personal AOSP project,<br/>
+* Some minimal changes applied ```personal``` AOSP project,<br/>
   which based on PixelExperience,</br>
   that add Google Play System Update, Carrier Settings, and features that of personal taste :P<br/>
-  by `Parasitizing` on other AOSP projects.
+  by ```Parasitizing``` on other AOSP projects.
 
 ## Build Process
 
 ### Sync ###
 
-* First, please following `Sync` instruction in [fork of PixelExperience's manifest](https://github.com/TheParasiteProject/manifest)<br>
-  After that, following below instruction.
+* First, please follow `Sync` instructions in [fork of PixelExperience's manifest](https://github.com/TheParasiteProject/manifest)<br>
+  After that, follow below instructions.
 
 ```bash
 
@@ -35,9 +35,15 @@ $ lunch aosp_$device-userdebug
 $ mka bacon -jX
 ```
 
+## Devices
+
+- [TheParasiteProject-Devices](https://github.com/TheParasiteProject-Devices)
+
 ## Credits
+
 - [Acme UI](https://github.com/AcmeUI)
 - [AOSPA](https://github.com/AOSPA)
+- [BenzoRom](https://github.com/BenzoRom)
 - [crDroid Android](https://github.com/crdroidandroid)
 - [DerpFest AOSP](https://github.com/DerpFest-AOSP)
 - [Descendant](https://github.com/Descendant-XI)
@@ -51,6 +57,7 @@ $ mka bacon -jX
 - [Project Kaleidoscope](https://github.com/Project-Kaleidoscope)
 - [riceDroid Open Source Software](https://github.com/ricedroidOSS)
 - [StatiX](https://github.com/StatiXOS)
+- [VoidUI Tiramisu](https://github.com/VoidUI-Tiramisu)
 - [Yet another AOSP project](https://github.com/yaap)
 
 <br/>
