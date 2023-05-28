@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="vendor_qcom_opensource_fm-commonsys" />
-  <remove-project name="device_qcom_sepolicy_vndr-legacy-um" />
-
-  <!-- Device repos -->
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="parasite" />
-
-  <!-- Vendor repos - QCOM -->
-  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="parasite" />
 </manifest>
