@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Packages repos -->
+  <remove-project name="packages_overlays_ThemeIcons" />
+
+  <!-- General repos -->
+  <remove-project name="vendor_aosp" />
+  <remove-project name="vendor_gms" />
+  <remove-project name="vendor_pixel-framework" />
+  <remove-project name="vendor_custom-preference" />
+</manifest>

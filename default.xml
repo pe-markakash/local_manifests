@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="parasite"
+          fetch="https://github.com/TheParasiteProject/"
+          revision="thirteen-plus" />
+
+  <remote name="parasite-gitlab"
+          fetch="https://gitlab.com/someone5678/"
+          revision="thirteen-plus" />
+
+  <remote name="github-others" fetch="https://github.com/" />
+  <remote name="gitlab-others" fetch="https://gitlab.com/" />
+
+  <!-- Remove unused repos -->
+  <include name="local_manifests/snippets/remove.xml" />
+  <include name="local_manifests/snippets/remove-extras.xml" />
+
+  <!-- Add all TheParasiteProject repos -->
+  <include name="local_manifests/snippets/parasite.xml" />
+  <include name="local_manifests/snippets/parasite-extras.xml" />
+  <include name="local_manifests/snippets/parasite-caf.xml" />
+</manifest>

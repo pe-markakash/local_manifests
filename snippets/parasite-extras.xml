@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Packages repos -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="parasite" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
+  <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
+
+  <!-- General repos -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="parasite" />
+  <project path="vendor/gms" name="vendor_gms" remote="parasite-gitlab" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
+
+  <!-- Kernel repos -->
+  <project path="kernel/modules" name="kernel_modules" remote="parasite" sync-s="true" />
+  <project path="kernel/modules/misc/KernelSU" name="tiann/KernelSU" remote="github" revision="main" />
+</manifest>
