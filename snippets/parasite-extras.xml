@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Device repos -->
+  <project path="device/parasite/sepolicy" name="device_parasite_sepolicy" remote="parasite" />
+
   <!-- Packages repos -->
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" groups="pdk-fs" remote="parasite" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="parasite" />
