@@ -37,6 +37,9 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
 
+  <!-- Kernel repos -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.77" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="parasite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
@@ -51,5 +54,4 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="parasite" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="parasite" />
   <project path="system/vold" name="system_vold" remote="parasite" />
-
 </manifest>
