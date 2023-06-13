@@ -44,7 +44,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="parasite" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="parasite" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="parasite" />
 
   <!-- System repos -->
