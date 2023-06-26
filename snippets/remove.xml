@@ -30,7 +30,6 @@
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="packages_modules_Bluetooth" />
-  <remove-project name="packages_modules_Connectivity" />
   <remove-project name="packages_services_Telecomm" />
 
   <!-- System repos -->
